@@ -16,7 +16,7 @@ int main(
   vet = (int *)malloc(n * sizeof(int));
   if (vet == NULL)
   {
-    printf("Allocatoin Error.\n");
+    printf("Allocation Error.\n");
     exit(1);
   }
 
